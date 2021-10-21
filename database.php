@@ -35,5 +35,29 @@ $database = [
 		'author' => 'Eric Clapton',
 		'year' => 2002,
 		'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg'
+	],
+	[
+	 'author' => "Deep Purple",
+	 'poster' => "https://images-na.ssl-images-amazon.com/images/I/51rggtPgmRL.jpg",
+	 'title' => "Made in Japan",
+	 'year' => "1972"
+	],
+	[
+	 'author' => "Metallica",
+	 'poster' => "https://images-na.ssl-images-amazon.com/images/I/81r3FVfNG3L._SY355_.jpg",
+	 'title' => "And Justice for All",
+	 'year' => "1988"
+	],
+	[
+	 'author' => "Dave Weckl",
+	 'poster' => "https://img.discogs.com/KOBsqQwKiNKH-q927oHMyVdDzSo=/fit-in/596x596/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6406665-1418464475-6120.jpeg.jpg",
+	 'title' => "Hard Wired",
+	 'year' => "1994"
+	],
+	[
+	 'author' => "Michael Jacjson",
+	 'poster' => "https://m.media-amazon.com/images/I/71K9CbNZPsL._SS500_.jpg",
+	 'title' => "Bad",
+	 'year' => "1987"
 	]
 ];

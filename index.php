@@ -19,10 +19,12 @@ require __DIR__ . "/database.php"
         <div class="container">
             <?php foreach($database as $data) {?>
                 <div class="card">
-                    <img src="<?php echo"{$data["poster"]}";?>" alt="">
-                    <h5><?php echo"{$data["title"]}";?></h5>
-                    <p><?php echo"{$data["author"]}";?></p>
-                    <p><?php echo"{$data["year"]}";?></p>
+                    <div class="card-container">
+                        <img src="<?php echo"{$data["poster"]}";?>" alt="">
+                        <h3><?php echo"{$data["title"]}";?></h3>
+                        <p><?php echo"{$data["author"]}";?></p>
+                        <p><?php echo"{$data["year"]}";?></p>
+                    </div>
                 </div>
             <?php }?>
         </div>
